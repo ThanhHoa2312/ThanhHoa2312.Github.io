@@ -27,11 +27,11 @@
   }
   
   .tren{
-    background-color:gray;
+    background-color:#151515;
     margin: 0 0 0 0;
   }
   header {
-    margin-left: 90px;
+    margin-left: 150px;
     position: relative;
     width: 1140px;
   }
@@ -79,7 +79,7 @@
     background: url(https://webdocsach.com/wp-content/uploads/2020/05/dung-chay-theo-so-dong.jpg) no-repeat center top;
     color: #fff;
     padding: 260px 0 260px;/*trên,phai,dưới,trái*/
-    background-size: 1150px;
+    background-size: 1000px;
     text-align: right;
     margin-bottom: 1cm;
     width: 100%;
@@ -236,8 +236,8 @@
     width: 284px;
   }
   #footer button {
-    background-color: #626262;
-    border: 1px solid white;
+    background-color: #151515;
+    border: 1px solid #626262;
     color: black;
     cursor: pointer;
     height: 30px;
@@ -247,10 +247,10 @@
     margin-left: 3cm;
     text-align: center;
     transition: 0.3s background-color;
-    border-radius: 20px;
+    border-radius: 15px;
   }
   #footer button:hover {
-    background-color: gray;
+    background-color: #626262;
   }
   #footer .inner .right-section {
     float: right;

@@ -1,0 +1,123 @@
+  /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #bababa;
+    font-family: Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  .tren{
+    background-color:#151515;
+    margin: 0 0 0 0;
+  }
+  header {
+      
+    margin-left: 100px;
+    position: relative;
+    width: 1150px;
+  }
+  header #logo {
+    float: left;
+  }
+  header .navigation {
+    float: left;
+    padding: 15px 0 0 20px;
+  }
+  header .navigation li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  header .navigation li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s color;
+  }
+  header .navigation li.active a,
+  header .navigation li a:hover {
+    color: #00aeef;
+  }
+  header .login {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+  }
+  header .login button {
+    color: black;
+    background-color:  #ADD8E6;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 13px 12px 11px;
+    transition: 0.3s border-color;
+  }
+  header .login button:hover {
+    border-color: turquoise;
+  }
+  .service {
+    background-color: #f7f6f6;
+  }
+  .service .head-section {
+    background-color: #01bacf;
+    padding: 90px 0 91px;
+  }
+  .service .head-section h2 {
+    color: #fff;
+    font-size: 33px;
+    line-height: 1.1;
+    margin: 0 auto;
+    width: 1150px;
+  }
+  .service .service-list {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+    top: -40px;
+    width: 1150px;
+  }
+  .service.service-list image{
+      padding-bottom: 10px;
+  }
+  .service .service-list li {
+    background-color: #fff;
+    float: left;
+    margin-right: 30px;
+    min-height: 220px;
+    padding: 20px 20px 20px;
+    width: 200px;
+  }
+  .service .service-list li:last-child {
+    margin-right: 0;
+  }
+  .service .service-list li .icon {
+    margin-bottom: 16px;
+  }
+  .service .service-list li .icon i {
+    color: #c2d82e;
+    font-size: 40px;
+  }
+  .service .service-list li h3 {
+    color: #000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
